@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import './jaja.style.css'
-import { Prueba } from "../components/prueba/prueba";
-
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Preview",
@@ -11,7 +9,8 @@ export const metadata: Metadata = {
 export default function Home () {
   return (
     <div>
-      <Prueba/>
+      <div>
+      <p className="text-4xl">hola saludos</p></div> 
     </div>
   )
 }
