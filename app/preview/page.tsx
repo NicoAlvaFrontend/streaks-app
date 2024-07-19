@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import './jaja.style.css'
+import { Prueba } from "../components/prueba/prueba";
 
 
 export const metadata: Metadata = {
@@ -9,7 +11,7 @@ export const metadata: Metadata = {
 export default function Home () {
   return (
     <div>
-      
+      <Prueba/>
     </div>
   )
 }
