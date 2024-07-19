@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import { Prueba } from "../components/prueba/prueba.component";
 
 export const metadata: Metadata = {
   title: "Preview",
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Home () {
   return (
     <div>
-      
+      <Prueba/>
     </div>
   )
 }
